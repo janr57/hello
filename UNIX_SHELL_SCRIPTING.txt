@@ -1,0 +1,8 @@
+LISP   |  SHEBANG                               |  COMMAND-LINE-ARGS
+-------------------------------------------------------------------------
+CLISP  |  #!/usr/bin/clisp                      |  EXT:*ARGS* 
+ECL    |  #!/usr/local/bin/ecl -q -norc -shell  | (si:argc), (si:argv N) 
+GCL    |  #!/usr/local/bin/gcl -f               |  si:*command-args* 
+SBCL   |  #!/usr/local/bin/sbcl --script        |  sb-ext:*posix-args*
+--------------------------------------------------------------------------
+
